@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon index.js"
+  },
+  "author": {
+    "name": "Mahim Safa",
+    "email": "hi@mahimsafa.com",
+    "url": "https://mahimsafa.com"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.192.0",
+    "@aws-sdk/lib-dynamodb": "^3.192.0",
+    "aws-sdk": "^2.1238.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-uuid": "^1.4.8",
+    "serverless-http": "^3.1.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
